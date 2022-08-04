@@ -1,0 +1,30 @@
+.accordion_section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+}
+.accordion_button {
+  text-align: left;
+  border: none;
+  padding: 10px;
+  background-color: antiquewhite;
+  border-color: black;
+  border-radius: 2px solid black;
+}
+.accordion_button::after {
+  content: '\25ba';
+  float: right;
+}
+
+.accordion_button_down::after {
+  content: '\25bc';
+  float: right;
+}
+
+.accordion_content {
+  background-color: antiquewhite;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-align: center;
+}
