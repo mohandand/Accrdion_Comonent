@@ -13,13 +13,14 @@
   border-radius: 2px solid black;
 }
 .accordion_button::after {
-  content: '\25ba';
+  content: '\25bc';
   float: right;
 }
 
 .accordion_button_down::after {
-  content: '\25bc';
+  content: '\25b4';
   float: right;
+  transform: scale(1.5);
 }
 
 .accordion_content {
